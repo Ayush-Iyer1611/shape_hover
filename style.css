@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shape{ 
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    width: 250px ;
+    height: 250px;;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+#square1{
+    background-color: white;
+    
+}
+
+#square1:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+
+#square2{
+    margin-top: 70px;
+    background-color: white;
+    rotate: 45deg;
+    
+}
+
+#square2:hover{
+    background-color: rgb(0, 255, 64);
+    transition: 0.5s;
+    
+}
+
+#circle{
+    background-color: white;
+    border-radius: 50%;
+    
+}
+
+#circle:hover{
+    background-color: rgb(0, 60, 255);
+    transition: 0.5s;
+}
+
+
+
